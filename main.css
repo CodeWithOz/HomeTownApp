@@ -35,6 +35,8 @@ ul {
 .news__more {
   float: right;
   font-size: .8em;
+  min-width: 48px;
+  min-height: 48px;
   color: #333;
   text-decoration: none;
 }
@@ -198,6 +200,8 @@ main {
 
 .top-news__item a {
   text-decoration: none;
+  min-width: 48px;
+  min-height: 48px;
   color: #666;
 }
 
@@ -336,6 +340,8 @@ main {
 
 .snippet__title a {
   text-decoration: none;
+  min-width: 48px;
+  min-height: 48px;
   color: #666;
 }
 
