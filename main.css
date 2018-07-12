@@ -105,6 +105,8 @@ ul {
 
 .nav a {
   text-decoration: none;
+  min-width: 48px;
+  min-height: 48px;
   color: #616161;
 }
 
@@ -361,5 +363,7 @@ footer li {
 
 footer a {
   text-decoration: none;
+  min-width: 48px;
+  min-height: 48px;
   color: #333;
 }
