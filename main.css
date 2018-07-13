@@ -25,6 +25,13 @@ ul {
   margin: 0;
 }
 
+/*
+ * breakpoints
+ * 600px: hamburger and navbar
+ * 750px: top news and headline side by side, scores and weather too
+ * 900px: side margins
+*/
+
 
 /*
  *
