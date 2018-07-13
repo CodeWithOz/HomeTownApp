@@ -9,6 +9,7 @@ body {
   font-family: Roboto;
   font-size: 12px;
   color: #424242;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5 {
@@ -109,11 +110,30 @@ ul {
   margin: 0;
 }
 
+@media screen and (max-width: 600px) {
+  .nav__list {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    background-color: #FFFFFF;
+    width: 270px;
+    -webkit-transform: translateX(270);
+    -ms-transform: translateX(270);
+    transform: translateX(270px);
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .nav__item {
+    display: inline-block;
+    width: 24%;
+  }
+  .hamburger {
+    display: none;
+  }
+}
 .nav__item {
   box-sizing: border-box;
-  display: inline-block;
-  width: 24%;
-  text-align: center;
   line-height: 24px;
   padding: 24px;
   text-transform: uppercase;
