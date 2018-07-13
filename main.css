@@ -120,6 +120,13 @@ ul {
     -webkit-transform: translateX(270);
     -ms-transform: translateX(270);
     transform: translateX(270px);
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+  }
+  .nav__list.open {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
