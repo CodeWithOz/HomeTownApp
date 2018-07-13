@@ -83,6 +83,12 @@ ul {
   color: #212121;
 }
 
+.hamburger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+}
 
 /*
  *
