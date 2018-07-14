@@ -110,6 +110,13 @@ ul {
   margin: 0;
 }
 
+.nav__item {
+  box-sizing: border-box;
+  line-height: 24px;
+  padding: 24px;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 600px) {
   .nav__list {
     position: absolute;
@@ -139,13 +146,6 @@ ul {
     display: none;
   }
 }
-.nav__item {
-  box-sizing: border-box;
-  line-height: 24px;
-  padding: 24px;
-  text-transform: uppercase;
-}
-
 .nav a {
   text-decoration: none;
   min-width: 48px;
