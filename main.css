@@ -117,6 +117,19 @@ ul {
   text-transform: uppercase;
 }
 
+.nav a {
+  text-decoration: none;
+  min-width: 48px;
+  min-height: 48px;
+  color: #616161;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #212121;
+}
+
+/* make navbar responsive */
 @media screen and (max-width: 600px) {
   .nav__list {
     position: absolute;
@@ -145,17 +158,6 @@ ul {
   .hamburger {
     display: none;
   }
-}
-.nav a {
-  text-decoration: none;
-  min-width: 48px;
-  min-height: 48px;
-  color: #616161;
-}
-
-.nav a:hover {
-  text-decoration: underline;
-  color: #212121;
 }
 
 
@@ -380,7 +382,7 @@ main {
 
 /*
  *
- * Weather
+ * Other news
  *
  */
 
