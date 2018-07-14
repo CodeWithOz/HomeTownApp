@@ -91,6 +91,7 @@ ul {
 .hamburger {
   font-size: 4em;
   text-decoration: none;
+  color: #adadad;
 }
 
 /* make header responsive */
