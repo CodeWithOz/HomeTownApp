@@ -178,6 +178,10 @@ main {
  *
  */
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /*
  *
@@ -190,6 +194,7 @@ main {
   background-image: url("./images/dog.jpg");
   background-size: cover;
   height: 300px;
+  width: 100%;
 }
 
 .hero article {
@@ -213,6 +218,7 @@ main {
 
 .top-news {
   height: 300px;
+  width: 100%;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
 }
@@ -259,6 +265,7 @@ main {
 
 .scores {
   padding-top: 1em;
+  width: 100%;
 }
 
 .scores__table {
@@ -306,6 +313,7 @@ main {
 
 .weather {
   padding: 1em;
+  width: 100%;
 }
 
 .weather__location {
@@ -349,6 +357,24 @@ main {
 
 .weather__next__image {
   width: 100%;
+}
+
+/*
+ *
+ * Change layout at responsive breakpoints
+ *
+ */
+
+@media screen and (min-width: 750px) {
+  .hero, .scores { width: 60%; }
+  .top-news, .weather { width: 40%; }
+}
+
+@media screen and (min-width: 900px) {
+  .nav, main {
+    margin: 0 auto;
+    width: 900px;
+  }
 }
 
 
