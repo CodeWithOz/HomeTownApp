@@ -65,6 +65,13 @@
   }
 }
 
+/* increase font-size at minor breakpoint */
+@media screen and (min-width: 600px) {
+  .snippet, .top-news__item {
+    font-size: 14px;
+  }
+}
+
 @media screen and (min-width: 700px) {
   .hero {
     width: 50%;
