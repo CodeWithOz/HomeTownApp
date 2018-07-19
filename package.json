@@ -1,0 +1,19 @@
+{
+  "name": "hometownapp",
+  "version": "1.0.0",
+  "description": "Home Town App project from the Udacity Frontend Nano Degree course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWithOz/HomeTownApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeWithOz/HomeTownApp/issues"
+  },
+  "homepage": "https://github.com/CodeWithOz/HomeTownApp#readme"
+}
